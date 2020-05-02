@@ -2,10 +2,9 @@ img {
     width: 100%;
     margin-bottom: 20pt;
 }
-/* 
-#natwestpresent {
-    padding-left: 50pt;
-} */
+p {
+    margin-top: 0 !important;
+}
 
 .imageleft {
     padding-right: 20pt;
