@@ -19,10 +19,10 @@ p {
   padding: 1rem;
 }
 .headshot {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
-img {
+.headshot img {
+  display: inline;
   width: 40%;
 }
 .grid {
@@ -37,9 +37,6 @@ img {
   }
   .left {
     padding-right: 10pt;
-  }
-  .headshot {
-    display: block;
   }
   .headshot img {
     width: 100%;
