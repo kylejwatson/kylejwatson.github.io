@@ -3,11 +3,9 @@ video {
   width: 100%;
   margin-bottom: 20pt;
 }
-
 p {
   margin-top: 0 !important;
 }
-
 .menu {
   display: inline;
   z-index: 10;
@@ -20,16 +18,34 @@ p {
   top: 6rem;
   padding: 1rem;
 }
-
 .headshot {
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
-.headshot img {
+img {
   width: 40%;
-  height: max-content;
 }
-@media only screen and (min-width: 1300px) {
+.grid {
+  display: block;
+}
+@media screen and (min-width: 850px) {
+  .grid {
+    display: flex;
+  }
+  .right {
+    padding-left: 10pt;
+  }
+  .left {
+    padding-right: 10pt;
+  }
+  .headshot {
+    display: block;
+  }
+  .headshot img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1300px) {
   .main {
     position: relative;
     top: 0;
@@ -38,28 +54,6 @@ p {
     width: 20rem;
     padding: 5rem;
     position: fixed;
-  }
-
-  .headshot img {
-    width: 100%;
-    height: max-content;
-  }
-}
-
-.grid {
-  display: block;
-}
-
-@media only screen and (min-width: 850px) {
-  .grid {
-    display: flex;
-  }
-  .right {
-    padding-left: 10pt;
-  }
-
-  .left {
-    padding-right: 10pt;
   }
 }
 
